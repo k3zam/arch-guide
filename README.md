@@ -5,10 +5,10 @@ Personal guide for stuff to do after settng up arch.
 ## Enable Network and Bluetooth
 
 ### Enables Network
-```bash systemctl enable NetworkManager --now #enable networking```
+```systemctl enable NetworkManager --now #enable networking```
 
 ### Enables Bluetooth
-```bash systemctl enable bluetooth.service --now #enable networking```
+```systemctl enable bluetooth.service --now #enable networking```
 
 ## Enable thumbnails for video
 ```bash
