@@ -11,7 +11,8 @@ Personal guide for stuff to do after settng up arch.
 ```systemctl enable bluetooth.service --now #enable networking```
 
 ## Enable thumbnails for video
-```yay kdegraphics-thumbnailers #thumbnails
+```
+yay kdegraphics-thumbnailers #thumbnails
 yay ffmpegthumbs #thumbnail
 ```
 
