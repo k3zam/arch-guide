@@ -10,7 +10,7 @@ Personal guide for stuff to do after settng up arch.
 ### Enables Bluetooth
 ```systemctl enable bluetooth.service --now #enable networking```
 
-##Install Yakuake
+## Install Yakuake
 ```sudo pacman -S yakuake```
 
 ## Enable thumbnails for video
