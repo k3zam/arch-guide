@@ -15,7 +15,12 @@ systemctl enable bluetooth.service --now #enable bluetooth
 ```
 
 ## Wayland and hardware accelration on firefox
-
+Follow the steps in https://wiki.archlinux.org/title/firefox
+edit ```/etc/environment``` and add the lines below
+```
+MOZ_ENABLE_WAYLAND=1
+MOZ_DBUS_REMOTE=1
+```
 
 ## Setup yay for AUR
 ```bash
@@ -29,9 +34,11 @@ makepkg -si
 ```bash
 yay -Sy timeshift
 yay timeshift-autosnap
+sudo pacman -S grub-btrfs
 ```
 change default amount of snapshots to keep to 5 by editing ```/etc/timeshift-autosnap.conf```
- 
+grub-btrfs adds snapshot entries to grub after updating
+
 ## Install Yakuake
 ```bash 
 sudo pacman -S yakuake
