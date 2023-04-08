@@ -83,7 +83,7 @@ sudo pacman -S p7zip unrar
 
 ## Enable thumbnails for video
 ```bash
-yay kdegraphics-thumbnailers #thumbnails
-yay ffmpegthumbs #thumbnail
+yay kdegraphics-thumbnailers
+yay ffmpegthumbs
 ```
 Enable thumbnail plugins in Dolphin and Settings Manager 
