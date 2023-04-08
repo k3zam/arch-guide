@@ -10,7 +10,7 @@ systemctl enable NetworkManager --now #enable networking
 ```
 
 #### Enables Bluetooth
-```zsh
+```bash
 systemctl enable bluetooth.service --now #enable bluetooth
 ```
 
