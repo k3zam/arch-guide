@@ -87,3 +87,20 @@ yay kdegraphics-thumbnailers
 yay ffmpegthumbs
 ```
 Enable thumbnail plugins in Dolphin and Settings Manager 
+
+## Install and setup zsh
+
+```sudo pacman -S zsh```
+
+### Setup powerlevel10k
+Follow the steps in https://github.com/romkatv/powerlevel10k
+
+Use the config files
+#### Make zsh default
+```
+chsh -l
+chsh -s /usr/bin/zsh
+```
+
+
+
