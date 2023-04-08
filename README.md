@@ -10,10 +10,14 @@ systemctl enable NetworkManager --now #enable networking
 ```
 
 ### Enables Bluetooth
-```bash systemctl enable bluetooth.service --now #enable bluetooth```
+```bash
+systemctl enable bluetooth.service --now #enable bluetooth
+```
 
 ## Install Yakuake
-```bash sudo pacman -S yakuake```
+```bash 
+sudo pacman -S yakuake
+```
 
 ## Enable thumbnails for video
 ```bash
