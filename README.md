@@ -18,6 +18,10 @@ systemctl enable bluetooth.service --now #enable bluetooth
 ```bash 
 sudo pacman -S yakuake
 ```
+## Appearence
+#### Disable blur
+Disable blur and transluency effects from compositor
+Right click task switcher -> enter edit mode -> more options -> Opacity-Opaque
 
 ## Setup yay for AUR
 ```bash
