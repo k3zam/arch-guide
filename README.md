@@ -19,6 +19,10 @@ systemctl enable bluetooth.service --now #enable bluetooth
 sudo pacman -S yakuake
 ```
 
+## Setup yay for AUR
+```bash
+```
+
 ## Enable thumbnails for video
 ```bash
 yay kdegraphics-thumbnailers #thumbnails
