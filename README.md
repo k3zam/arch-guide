@@ -14,15 +14,8 @@ systemctl enable NetworkManager --now #enable networking
 systemctl enable bluetooth.service --now #enable bluetooth
 ```
 
-## Install Yakuake
-```bash 
-sudo pacman -S yakuake
-```
-## Appearence
-#### Disable blur
-Disable blur and transluency effects from compositor
+## Wayland and hardware accelration on firefox
 
-Right click task switcher > enter edit mode > more options > Opacity-Opaque
 
 ## Setup yay for AUR
 ```bash
@@ -30,6 +23,54 @@ pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+```
+
+## Setup Timeshift for snapshots
+```bash
+yay -Sy timeshift
+yay timeshift-autosnap
+```
+change default amount of snapshots to keep to 5 by editing ```/etc/timeshift-autosnap.conf```
+ 
+## Install Yakuake
+```bash 
+sudo pacman -S yakuake
+```
+
+## Appearence
+#### Disable blur
+Disable blur and transluency effects from compositor
+
+Right click task switcher > enter edit mode > more options > Opacity-Opaque
+
+## Pacman Changes
+uncomment color and parallel downloads in pacman.conf and add ILoveCandy
+
+## Install Microcode
+```bash
+sudo pacman -S intel-ucode
+```
+
+## Disable GRUB delay
+```bash
+sudo nano /etc/default/grub
+```
+Set GRUB timeout style to hidden
+
+Update GRUB config
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+## Setup Firewall
+```bash
+sudo pacman -S ufw
+```
+Enable the firewall from command line or from settings GUI
+
+## Usefull stuff to install
+```bash
+sudo pacman -S p7zip unrar
 ```
 
 ## Enable thumbnails for video
