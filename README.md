@@ -10,12 +10,13 @@ systemctl enable NetworkManager --now #enable networking
 ```
 
 #### Enables Bluetooth
-```bash
+```zsh
 systemctl enable bluetooth.service --now #enable bluetooth
 ```
 
 ## Wayland and hardware accelration on firefox
 Follow the steps in https://wiki.archlinux.org/title/firefox
+
 edit ```/etc/environment``` and add the lines below
 ```
 MOZ_ENABLE_WAYLAND=1
