@@ -26,6 +26,10 @@ Right click task switcher > enter edit mode > more options > Opacity-Opaque
 
 ## Setup yay for AUR
 ```bash
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
 ```
 
 ## Enable thumbnails for video
