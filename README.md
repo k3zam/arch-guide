@@ -81,10 +81,11 @@ Enable the firewall from command line or from settings GUI
 sudo pacman -S p7zip unrar
 ```
 
-## Enable thumbnails for video
+## Enable thumbnails for video and windows applications
 ```bash
 yay kdegraphics-thumbnailers
 yay ffmpegthumbs
+yay icoutils
 ```
 Enable thumbnail plugins in Dolphin and Settings Manager 
 
@@ -102,5 +103,6 @@ chsh -l
 chsh -s /usr/bin/zsh
 ```
 
+## Setup grub theme
 
-
+## Setup wine and dependencies
