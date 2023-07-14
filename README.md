@@ -110,3 +110,11 @@ chsh -s /usr/bin/zsh
 yay -S lib32-giflib lib32-gnutls lib32-v4l-utils lib32-libpulse alsa-plugins lib32-alsa-plugins lib32-alsa-lib lib32-libxcomposite lib32-libxinerama lib32-opencl-icd-loader lib32-gst-plugins-base-libs lib32-sdl2 libgphoto2
 ```
 ## Install Noto Fonts
+
+##How to chroot into the system when you inevitably mess up
+
+```
+sudo mount /dev/nvme--- /mnt -o subvol=@
+sudo mount /dev/nvme--- /mnt/boot
+sudo arch-chroot /mnt
+```
