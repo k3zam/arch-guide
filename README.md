@@ -111,7 +111,7 @@ yay -S lib32-giflib lib32-gnutls lib32-v4l-utils lib32-libpulse alsa-plugins lib
 ```
 ## Install Noto Fonts
 
-##How to chroot into the system when you inevitably mess up
+## How to chroot into the system when you inevitably mess up
 
 ```
 sudo mount /dev/nvme--- /mnt -o subvol=@
