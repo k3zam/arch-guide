@@ -118,3 +118,8 @@ sudo mount /dev/nvme--- /mnt -o subvol=@
 sudo mount /dev/nvme--- /mnt/boot
 sudo arch-chroot /mnt
 ```
+## Firefox Configuration for kde
+
+Set widget.use-xdg-desktop-portal.file-picker=1 in about:config to make Firefox always use XDG portals for file pickers, which will make it use KDE's file picker instead of the GTK one.
+
+Install the Plasma Integration addon, and turn off Firefox's built-in media controls (which conflict with the ones offered by PBI) by setting media.hardwaremediakeys.enabled to false in about:config. 
